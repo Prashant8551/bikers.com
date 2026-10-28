@@ -1,8 +1,47 @@
-# bikers.com
-Bikers.com is your premier destination for all things two-wheeled, offering an intuitive and dynamic online platform for buying and selling bikes. With a sleek interface crafted using Bootstrap, our Python Django-powered website ensures a seamless user experience from start to finish.
+# Bikers.com 🏍️
 
-Discover a vast array of motorcycles, from sleek sportbikes to rugged cruisers, conveniently categorized and easily navigable. Our advanced search filters allow you to find the perfect ride based on your preferences, whether it's brand, model, price range, or more.
+Bikers.com is a robust, dynamic e-commerce marketplace platform for motorcycle enthusiasts to buy and sell bikes. Built using **Python Django** and styled with **Bootstrap**, this platform delivers a seamless, responsive, and secure experience for managing two-wheeled inventory online.
 
-Selling your bike? Bikers.com provides sellers with a hassle-free process, allowing you to list your motorcycle with detailed descriptions and high-quality images. Our secure payment gateway ensures peace of mind for both buyers and sellers alike.
+## ✨ Core Features
 
-Join the thriving community of biking enthusiasts on Bikers.com today and experience the ultimate online marketplace for all your biking needs.
+* **Advanced Search & Filtering:** Find motorcycles instantly by filtering by brand, model, price range, and physical specifications.
+* **Hassle-Free Listings:** Simplified seller portal allows users to list bikes with comprehensive technical details and high-quality image uploads.
+* **Responsive E-Commerce Framework:** Sleek, modern user interface built using Bootstrap components optimized for desktop, tablet, and mobile viewing.
+* **Secure Environment:** Built-in Django security architecture defending against cross-site scripting (XSS) and cross-site request forgery (CSRF).
+
+## 🛠️ Tech Stack
+
+* **Backend Framework:** Python Django
+* **Frontend Design:** HTML5, CSS3, Bootstrap 5
+* **Database Management:** SQLite (Development) / PostgreSQL compatible
+
+## 🚀 Quick Start Guide
+
+Follow these steps to spin up the local development environment:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Prashant8551/bikers.com.git
+cd bikers.com
+```
+
+### 2. Set Up a Virtual Environment (Recommended)
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run Migrations & Start Server
+```bash
+python manage.py migrate
+python manage.py runserver
+```
+Navigate to `http://127.0.0` in your web browser to view the live site.
